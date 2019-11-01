@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sally Horton's Student Resume</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div id="application-root"></div>
+
+    <script src="https://unpkg.com/react@16/umd/react.development.js">
+    </script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js">
+    </script>
+    <script
+    src="https://unpkg.com/babel-standalone@6/babel.min.js">
+    </script>
+  
+    
+<script type="text/babel">
+    
+
+    function App() {
+        console.log()
+        return (
+            <div>
+                <header>
+                    <h1> Sally Student resume </h1>
+                </header> 
+                <main>
+                    <img src="https://m.media-amazon.com/images/M/MV5BMTY5NzE3NzU3MF5BMl5BanBnXkFtZTgwMjg0NTQ5MDE@._V1_.jpg" alt="Sally Horton" width="100"></img>
+                    <section>
+                        <h2> Contact Info </h2>
+                        <p> Name: Sally Horton </p>
+                        <address>
+                            E-mail Address:  <a href="mailto:sally@netscape.com">sally@netscape.com </a> 
+                            Phone Number: 949-567-4309 
+                        </address>
+                    </section>
+                    <section>
+                        <h2> Education </h2>
+                        <p> University of California Los Angeles </p>
+                    </section>
+                    <section>
+                        <h2> Employment History </h2>
+                        <h3> 1) </h3>
+                        <p> Company Name: Visa </p>
+                        <p> Job Title: CFO </p>
+                        <p> Dates Employed: 2000-2010 </p>
+                        <p> Job Description:  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae veritatis sed laborum, accusantium ut dolore asperiores ea enim, hic fuga corporis? Id cupiditate, voluptatibus veniam doloribus consectetur quia! Quae, eveniet? </p>
+                        <h3> 2) </h3>
+                        <p> Company Name: T-Mobile </p>
+                        <p> Job Title: CEO </p>
+                        <p> Dates Employed: 2010-2019 </p>
+                        <p> Job Description:  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae veritatis sed laborum, accusantium ut dolore asperiores ea enim, hic fuga corporis? Id cupiditate, voluptatibus veniam doloribus consectetur quia! Quae, eveniet? </p>
+                    </section>
+
+                </main>
+            </div>
+        )
+    }
+
+
+    ReactDOM.render(
+    <App />,
+    document.querySelector('#application-root')
+    )
+
+
+</script>
+
+
+</body>
+
+
+</html>
